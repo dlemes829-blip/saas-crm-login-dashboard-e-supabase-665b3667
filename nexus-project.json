@@ -2,7 +2,7 @@
   "id": "proj_saas-crm-login-dashboard-e-supabase_70663012",
   "name": "SaaS CRM login, dashboard e Supabase",
   "kind": "fullstack",
-  "status": "created",
+  "status": "deployed",
   "summary": "Arquivo editado manualmente: docs/nexus-capabilities.json",
   "engineering": {
     "version": 2,
@@ -280,6 +280,20 @@
       "status": "done",
       "detail": "1/5 ciclo(s)",
       "at": "2026-06-05T07:07:22.618Z"
+    },
+    {
+      "id": "2d84a39c",
+      "label": "GitHub preparado",
+      "status": "done",
+      "detail": "Repositorio saas-crm-login-dashboard-e-supabase-665b3667 enviado.",
+      "at": "2026-06-05T07:07:30.371Z"
+    },
+    {
+      "id": "9ce9bb7a",
+      "label": "Deploy preparado",
+      "status": "done",
+      "detail": "https://saas-crm-login-dashboard-e-supabase-jmud.onrender.com",
+      "at": "2026-06-05T07:07:32.558Z"
     }
   ],
   "validation": {
@@ -318,6 +332,7 @@
     "docs/nexus-capabilities.json",
     "docs/nexus-engineering-blueprint.json",
     "docs/nexus-engineering-brief.md",
+    "GITHUB_READY.md",
     "index.html",
     "nexus-project.json",
     "package.json",
@@ -332,5 +347,128 @@
     "supabase/schema.sql",
     "tests/smoke.test.mjs"
   ],
-  "updatedAt": "2026-06-05T07:07:22.621Z"
+  "updatedAt": "2026-06-05T07:07:32.560Z",
+  "github": {
+    "prepared": true,
+    "pushed": true,
+    "repoName": "saas-crm-login-dashboard-e-supabase-665b3667",
+    "repoUrl": "https://github.com/dlemes829-blip/saas-crm-login-dashboard-e-supabase-665b3667.git",
+    "visibility": "public",
+    "projectDir": "C:\\Users\\danie\\OneDrive\\nexus-v4-final\\nexus\\engines\\runtime\\projects\\proj_saas-crm-login-dashboard-e-supabase_70663012",
+    "commands": [
+      "git init",
+      "git add .",
+      "git commit -m \"Initial Agent Nexus project\"",
+      "gh repo create saas-crm-login-dashboard-e-supabase-665b3667 --public --source . --remote origin --push"
+    ],
+    "logs": [
+      {
+        "command": "git --version",
+        "ok": true,
+        "status": 0,
+        "output": "git version 2.54.0.windows.1"
+      },
+      {
+        "command": "git init",
+        "ok": true,
+        "status": 0,
+        "output": "Initialized empty Git repository in C:/Users/danie/OneDrive/nexus-v4-final/nexus/engines/runtime/projects/proj_saas-crm-login-dashboard-e-supabase_70663012/.git/"
+      },
+      {
+        "command": "git config user.name Agent Nexus",
+        "ok": true,
+        "status": 0,
+        "output": ""
+      },
+      {
+        "command": "git config user.email agent-nexus@nexus.local",
+        "ok": true,
+        "status": 0,
+        "output": ""
+      },
+      {
+        "command": "git add .",
+        "ok": true,
+        "status": 0,
+        "output": "warning: in the working copy of '.env.example', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'GITHUB_READY.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'api/server.js', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/architecture.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/nexus-acceptance-tests.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/nexus-capabilities.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/nexus-engineering-blueprint.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/nexus-engineering-brief.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'nexus-project.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/data/agentImprovements.js', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/data/demoData.js', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/lib/supabaseClient.js', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'supabase/schema.sql', LF will be replaced..."
+      },
+      {
+        "command": "git commit -m Initial Agent Nexus project",
+        "ok": true,
+        "status": 0,
+        "output": "[master (root-commit) accd28a] Initial Agent Nexus project\n 22 files changed, 1408 insertions(+)\n create mode 100644 .env.example\n create mode 100644 .gitignore\n create mode 100644 GITHUB_READY.md\n create mode 100644 README.md\n create mode 100644 api/server.js\n create mode 100644 docs/architecture.md\n create mode 100644 docs/nexus-acceptance-tests.md\n create mode 100644 docs/nexus-capabilities.json\n create mode 100644 docs/nexus-engineering-blueprint.json\n create mode 100644 docs/nexus-engineering-brief.md\n create mode 100644 index.html\n create mode 100644 nexus-project.json\n create mode 100644 package.json\n create mode 100644 public/index.html\n create mode 100644 src/App.jsx\n create mode 100644 src/data/agentImprovements.js\n create mode 100644 src/data/demoData.js\n create mode 100644 src/lib/supabaseClient.js\n create mode 100644 src/main.jsx\n create mode 100644 src/styles.css\n create mode 100644 supabase/schema.sql\n create mode 100644 tests/smoke.test.mjs"
+      },
+      {
+        "command": "git branch -M main",
+        "ok": true,
+        "status": 0,
+        "output": ""
+      },
+      {
+        "command": "gh --version",
+        "ok": false,
+        "status": null,
+        "output": ""
+      },
+      {
+        "command": "GitHub API create repository",
+        "ok": true,
+        "status": 422,
+        "output": "Repository already exists or name is reserved: https://github.com/dlemes829-blip/saas-crm-login-dashboard-e-supabase"
+      },
+      {
+        "command": "git remote",
+        "ok": true,
+        "status": 0,
+        "output": ""
+      },
+      {
+        "command": "git remote add origin https://github.com/dlemes829-blip/saas-crm-login-dashboard-e-supabase.git",
+        "ok": true,
+        "status": 0,
+        "output": ""
+      },
+      {
+        "command": "git push -u origin HEAD:main",
+        "ok": false,
+        "status": 1,
+        "output": "To https://github.com/dlemes829-blip/saas-crm-login-dashboard-e-supabase.git\n ! [rejected]        HEAD -> main (fetch first)\nerror: failed to push some refs to 'https://github.com/dlemes829-blip/saas-crm-login-dashboard-e-supabase.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details."
+      },
+      {
+        "command": "GitHub API create fallback repository saas-crm-login-dashboard-e-supabase-665b3667",
+        "ok": true,
+        "status": 201,
+        "output": "Repository created: https://github.com/dlemes829-blip/saas-crm-login-dashboard-e-supabase-665b3667"
+      },
+      {
+        "command": "git remote set-url origin https://github.com/dlemes829-blip/saas-crm-login-dashboard-e-supabase-665b3667.git",
+        "ok": true,
+        "status": 0,
+        "output": ""
+      },
+      {
+        "command": "git push -u origin HEAD:main",
+        "ok": true,
+        "status": 0,
+        "output": "branch 'main' set up to track 'https://x-access-token:[redacted]@github.com/dlemes829-blip/saas-crm-login-dashboard-e-supabase-665b3667.git/main'.\nTo https://github.com/dlemes829-blip/saas-crm-login-dashboard-e-supabase-665b3667.git\n * [new branch]      HEAD -> main"
+      },
+      {
+        "command": "git remote get-url origin",
+        "ok": true,
+        "status": 0,
+        "output": "https://github.com/dlemes829-blip/saas-crm-login-dashboard-e-supabase-665b3667.git"
+      }
+    ]
+  },
+  "liveUrl": "https://saas-crm-login-dashboard-e-supabase-jmud.onrender.com",
+  "deployments": [
+    {
+      "id": "srv-d8h7bcs2m8qs73aphcn0",
+      "provider": "render",
+      "publicUrl": "https://saas-crm-login-dashboard-e-supabase-jmud.onrender.com",
+      "dashboardUrl": "https://dashboard.render.com/web/srv-d8h7bcs2m8qs73aphcn0",
+      "status": "created",
+      "createdAt": "2026-06-05T07:07:32.558Z"
+    }
+  ]
 }
