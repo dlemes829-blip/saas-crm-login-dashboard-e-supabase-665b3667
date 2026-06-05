@@ -1,0 +1,22 @@
+{
+  "name": "saas-crm-login-dashboard-e-supabase",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "start": "node api/server.js",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node tests/smoke.test.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
